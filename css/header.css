@@ -1,0 +1,68 @@
+#home{
+background-image: url(../images/background.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+padding: 50px;
+
+}
+
+.nav-list{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 28px;
+gap: 49px;
+color: #FFFFFF;
+}
+
+.frase{
+color: #FFFFFF;
+font-size: 28px;
+}
+
+.logo{
+display: flex;
+align-items: center;
+height: 81px;
+
+}
+
+.paragrafo-frase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.frase-pizzaiola{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    transform: translateY(315px);
+    padding: 8px;
+
+}
+
+
+
+.nome-container{
+  width: min-content;
+}
+.nome-pizzaria{
+    color: #FFFFFF;
+}
+
+.nome-pizzaria{
+    font-size: 38px;
+    height: 70px;
+    width: 139;
+}
+
